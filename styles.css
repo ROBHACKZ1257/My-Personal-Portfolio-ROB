@@ -1,0 +1,180 @@
+body{
+  background-color: #EDE3E4;
+}
+
+h1{
+  margin-top: 100px;
+  text-align: center;
+  font-weight: 100px;
+}
+
+hr{
+  position: relative;
+  top: 20px;
+  width: 20%;
+  height: 8px;
+  background: black;
+  margin-bottom: 50px;
+}
+
+a{
+  color: #000000;
+  text-decoration: none;
+  padding: 3rem 1.8rem;
+  font-size: 1.5rem;
+  font-family: 'Outfit', sans-serif;
+  font-weight: bold;
+  animation-duration: 1s;
+}
+
+/* Position button container at the top */
+.list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+    background-color: #087BDF; 
+  }
+  
+  li{
+    list-style: none;
+    padding: 10px;
+    font-size: large;
+  }
+ 
+
+  img {
+    padding: 1% 1% 5% 1%; /* Adjust the padding values as needed */
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px; /* Adjust the value to control the roundness of the corners */
+  }
+
+  .image-box-boss{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .image-box{
+   justify-content: center;
+   display: flex;
+   width: 200px;
+   align-items: center;
+  }
+
+  .robert{
+   object-fit: contain;
+   max-width: 100%;
+   max-height: 100%;
+   width: auto;
+   height: auto;
+  }
+
+  .robert_fresh{
+  object-fit: contain;
+   max-width: 100%;
+   max-height: 100%;
+   width: auto;
+   height: auto;
+  }
+
+  .box-boss{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .rickandmorty-box{
+    margin-top: 3%;
+    background-color: white;
+    display: flex;
+    width: 300px;
+    height: 50px; 
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+  }
+
+  .tictactoe-box{
+    margin-top: 3%;
+    background-color: white;
+    display: flex;
+    width: 300px;
+    height: 50px; 
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+  }
+
+  .tweetasec-box{
+    margin-top: 3%;
+    background-color: white;
+    display: flex;
+    width: 300px;
+    height: 50px; 
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+  }
+
+  .gmail{
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+    height: 150px;
+  }
+
+  .gmail-line{
+    margin-bottom: 10%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .github-image{
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+    height: 150px;
+  }
+
+  .github-line{
+    margin-bottom: 10%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .github{
+  text-decoration: none;
+  }
+
+  .discord-image{
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+    height: 150px;
+  }
+
+  .discord-line{
+    margin-bottom: 10%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-sentence{
+    padding-top: 3%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Outfit', sans-serif;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 900;
+  }
