@@ -27,6 +27,28 @@ a{
   animation-duration: 1s;
 }
 
+.header_link:hover{
+  color: red; 
+     transform: scale(1.1);
+     cursor: pointer;
+   }
+   
+   
+   @keyframes textAnimation {
+     0% {
+       transform: scale(1);
+       color: blue;
+     }
+     100% {
+       transform: scale(1.1);
+       color: red;
+     }
+   }
+
+   .header_link:hover {
+    animation: textAnimation 0.3s ease-in-out;
+   }
+
 /* Position button container at the top */
 .list-container {
     display: flex;
@@ -169,12 +191,31 @@ a{
     margin-right: auto;
   }
 
+  .LinkedIn-image{
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    height: 190px;
+  }
+
+  .LinkedIn-line{
+    margin-bottom: 10%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .about-sentence{
     padding-top: 3%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Outfit', sans-serif;
-  font-family: 'Prompt', sans-serif;
-  font-weight: 900;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 900;
+  }
+
+  img:hover {
+    transform: scale(1.5rem);
   }
