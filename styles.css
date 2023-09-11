@@ -27,27 +27,27 @@ a{
   animation-duration: 1s;
 }
 
-.header_link:hover{
-  color: red; 
-     transform: scale(1.1);
-     cursor: pointer;
-   }
-   
-   
-   @keyframes textAnimation {
-     0% {
-       transform: scale(1);
-       color: blue;
-     }
-     100% {
-       transform: scale(1.1);
-       color: red;
-     }
-   }
+.header_link:hover {
+  color: red;
+  scale: 0.5; /* Scale the text to 1.1 times its original size */
+  cursor: pointer;
+}
 
-   .header_link:hover {
-    animation: textAnimation 0.3s ease-in-out;
-   }
+@keyframes textAnimation {
+  0% {
+    scale: 0.5; /* Start with a slightly bigger size */
+    color: white;
+  }
+  100% {
+    scale: 0.5; /* Maintain the slightly bigger size */
+    color: red;
+  }
+}
+
+.header_link:hover {
+  animation: textAnimation 0.3s ease-in-out;
+}
+
 
 /* Position button container at the top */
 .list-container {
@@ -176,6 +176,27 @@ a{
   text-decoration: none;
   }
 
+  .github:hover {
+    color: red;
+    scale: 0.5; /* Scale the text to 1.1 times its original size */
+    cursor: pointer;
+  }
+  
+  @keyframes textAnimation {
+    0% {
+      scale: 0.5; /* Start with a slightly bigger size */
+      color: blue;
+    }
+    100% {
+      scale: 0.5; /* Maintain the slightly bigger size */
+      color: red;
+    }
+  }
+  
+  .github:hover {
+    animation: textAnimation 0.3s ease-in-out;
+  }
+
   .discord-image{
     margin-top: 2%;
     margin-left: auto;
@@ -206,6 +227,27 @@ a{
     margin-right: auto;
   }
 
+  .LinkedIn:hover {
+    color: red;
+    scale: 0.5; /* Scale the text to 1.1 times its original size */
+    cursor: pointer;
+  }
+  
+  @keyframes textAnimation {
+    0% {
+      scale: 0.5; /* Start with a slightly bigger size */
+      color: blue;
+    }
+    100% {
+      scale: 0.5; /* Maintain the slightly bigger size */
+      color: red;
+    }
+  }
+  
+  .LinkedIn:hover {
+    animation: textAnimation 0.3s ease-in-out;
+  }
+
   .about-sentence{
     padding-top: 3%;
     text-align: center;
@@ -216,6 +258,6 @@ a{
     font-weight: 900;
   }
 
-  img:hover {
-    transform: scale(1.5rem);
+  .Tweet:hover {
+    scale: 1.5;
   }
