@@ -48,6 +48,19 @@ a{
   animation: textAnimation 0.3s ease-in-out;
 }
 
+.Welcome-bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  margin-top: 5%;
+  background-color: white;
+  font-family: 'Oswald', sans-serif, 'Outfit', sans-serif, 'Prompt', sans-serif;
+}
+
+.Iam { 
+  margin-top: 20px;
+}
 
 /* Position button container at the top */
 .list-container {
@@ -261,3 +274,45 @@ a{
   .Tweet:hover {
     scale: 1.5;
   }
+
+  .header_links {
+    display: none;
+}
+
+.header_link-wrapper {
+    margin-right: 20px;
+}
+
+/* Hamburger icon styles (displayed on smaller screens) */
+.menu-toggle {
+  position: absolute;
+  top: 10px; /* Adjust the top positioning as needed */
+  right: 10px;
+}
+
+.bar {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #333; /* Adjust color as needed */
+  margin: 6px 0;
+  
+}
+
+/* Media query to show the hamburger icon on screens 768px or smaller */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block; /* Show the button for screens 768px or smaller */
+    }
+
+    .header_links {
+        display: none; /* Hide the navigation links on smaller screens */
+    }
+
+    .header_links.active {
+        display: flex; /* Show the navigation links when active (hamburger icon is clicked) */
+        flex-direction: column; /* Display links vertically */
+    }
+}
+
+
