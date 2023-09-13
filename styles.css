@@ -310,7 +310,7 @@ a{
     flex-wrap: wrap;
     width: 155px;
     text-align: center;
-    margin-top: 14%;
+    margin-top: 8.5%;
   }
   
   #myLinks a {
@@ -325,4 +325,16 @@ a{
   #myLinks a:hover {
     color: red;
   }
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px; /* Adjust the height as needed */
+  background-color: #087BDF;
+  padding: 3px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif, 'Outfit', sans-serif, 'Prompt', sans-serif;
 }
