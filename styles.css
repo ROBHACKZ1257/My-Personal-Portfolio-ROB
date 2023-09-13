@@ -275,44 +275,54 @@ a{
     scale: 1.5;
   }
 
-  .header_links {
-    display: none;
-}
-
-.header_link-wrapper {
-    margin-right: 20px;
-}
-
-/* Hamburger icon styles (displayed on smaller screens) */
-.menu-toggle {
-  position: absolute;
-  top: 10px; /* Adjust the top positioning as needed */
-  right: 10px;
-}
-
-.bar {
-  display: block;
-  width: 30px;
-  height: 3px;
-  background-color: #333; /* Adjust color as needed */
-  margin: 6px 0;
-  
-}
-
-/* Media query to show the hamburger icon on screens 768px or smaller */
 @media (max-width: 768px) {
-    .menu-toggle {
-        display: block; /* Show the button for screens 768px or smaller */
-    }
+  .bar-container {
+    position: absolute;
+    top: 10px; /* Adjust the top positioning as needed */
+    right: 10px; /* Adjust the right positioning as needed to align it to the right */
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
 
-    .header_links {
-        display: none; /* Hide the navigation links on smaller screens */
-    }
+  .header_link-wrapper {
+    display: none;
+  }
 
-    .header_links.active {
-        display: flex; /* Show the navigation links when active (hamburger icon is clicked) */
-        flex-direction: column; /* Display links vertically */
-    }
+  .header_link{
+    display: block;
+  }
+
+  #myLinks {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: green;
+    border: 1px solid black;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 155px;
+    text-align: center;
+    margin-top: 14%;
+  }
+  
+  #myLinks a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+  }
+  
+  #myLinks a:hover {
+    color: red;
+  }
 }
-
-

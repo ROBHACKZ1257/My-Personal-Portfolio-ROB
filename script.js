@@ -1,9 +1,11 @@
-
-document.addEventListener('DOMContentLoaded', function () {
-    const menuToggle = document.getElementById('menu-toggle');
-    const headerLinks = document.getElementById('header-links');
-
-    menuToggle.addEventListener('click', function () {
-        headerLinks.classList.toggle('active');
-    });
-});
+document.addEventListener("DOMContentLoaded", function () {
+    const clickElement = document.getElementById("click");
+  
+    clickElement.addEventListener("click", toggleLinks);
+  });
+  
+  function toggleLinks() {
+    const linksElement = document.getElementById("myLinks");
+    linksElement.style.display = (linksElement.style.display === "block") ? "none" : "block";
+  }
+  
